@@ -10,3 +10,7 @@ print('A tangente de {} é {:.2f}'.format(angulo, tag))
 
 
 
+# a forma mais otimizada para isso seria
+# seno = math.sin(math.radians(angulo))
+# sendo assim, dispensável a variável rad criada e otimizando o código
+
