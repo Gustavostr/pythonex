@@ -8,4 +8,4 @@ lista = [aluno, aluno1, aluno2, aluno3]
 
 random.shuffle(lista)
 
-print('O escolhido é {}'.format(lista))
+print('A ordem de apresentação é: {}'.format(lista))
