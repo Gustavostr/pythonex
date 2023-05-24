@@ -1,0 +1,7 @@
+numero = str(input("Infrme um número de 0 a 9999: "))
+numero = numero.rjust(4,"0")
+print("Analizando o número informado............................\n")
+print("Unidades: {}".format(numero[3]))
+print("Dezenas: {}".format(numero[2]))
+print("Centenas: {}".format(numero[1]))
+print("Milhar: {}".format(numero[0]))
