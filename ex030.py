@@ -1,5 +1,5 @@
-nu = float((input("Digite um numero: ")))
-num = nu % 2
+numero_usuario = float((input("Digite um numero: ")))
+num = numero_usuario % 2
 if num == 0:
     print("Esse numero é par!")
 else:
