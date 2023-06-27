@@ -1,6 +1,6 @@
-numero_usuario = print (float(input("Digite um numero: ")))
-numero_dividido = numero_usuario % 2
-if numero_dividido == 0:
+nu = float((input("Digite um numero: ")))
+num = nu % 2
+if num == 0:
     print("Esse numero é par!")
 else:
     print("Esse numero é impar")
