@@ -6,5 +6,3 @@ for c in range (1, 500):
       else:
          s += c
 print("A soma dos valores são {}".format(s))
-
- 
