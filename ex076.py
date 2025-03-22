@@ -1,0 +1,8 @@
+lista_produtos = ("Mochila", 109.90, "Lapis", 2.50, "Caderno",19.90)
+print("="*85)
+print("LISTAGEM DE PREÇOS".center(83))
+print("="*85)
+print(f"Lápis...............R$    {lista_produtos[3]:.2f}")
+print(f"Mochila.............R$  {lista_produtos[1]:.2f}")
+print(f"Caderno.............R$   {lista_produtos[5]:.2f}")
+print("="*85)

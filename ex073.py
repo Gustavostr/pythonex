@@ -1,0 +1,13 @@
+tabela = ("Botafogo","Palmeiras","Flamengo","Fortaleza", "Internacional", "São Paulo","Corinthias","Bahia","Cruzeiro","Vasco da Gama","Vitória","Atletico","Fluminense","Gremio","Juventude","Bragantino","Atlético paranaense","Criciúma","Goianiense","Cuiabá")  
+print("="*95)
+print (f"Os 4 primeiro times são: {tabela[0:4]}")
+print("="*95)
+print(f"Os 4 último times são: {tabela[16:]}")
+print("="*95)
+ordenada = tuple(sorted(tabela))
+print(f"Os times em ordem alfabética são: {ordenada} ")
+print("="*95)
+if "Cruzeiro" in tabela:
+    posição = tabela.index("Cruzeiro")
+    print(f"O Cruzeiro está na {posição + 1}º posição")
+    print("="*95)
